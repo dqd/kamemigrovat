@@ -1,0 +1,39 @@
+p, blockquote {
+    line-height: 160%;
+}
+
+blockquote {
+    border-left: 5px silver solid;
+    padding-left: 1em;
+}
+
+.navbar a {
+    outline: none;
+}
+
+.table-country {
+    max-width: 400px;
+    float: right;
+}
+
+ul.plus-minus {
+    list-style: none;
+}
+
+ul.plus-minus li.plus:before, ul.plus-minus li.minus:before {
+    margin-right: 10px;
+}
+
+ul.plus-minus li.plus:before {
+    content: "+";
+}
+
+ul.plus-minus li.minus:before {
+    content: "–";
+}
+
+@media (min-width: 979px) and (max-width: 1200px) {
+    .navbar-nav a.nav-link {
+        font-size: 0.8rem;
+    }
+}
