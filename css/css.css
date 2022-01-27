@@ -29,7 +29,11 @@ ul.plus-minus li.plus:before {
 }
 
 ul.plus-minus li.minus:before {
-    content: "–";
+    content: "−";
+}
+
+section.bg-image-full > div {
+    height: 200px;
 }
 
 @media (min-width: 979px) and (max-width: 1200px) {
